@@ -3,7 +3,9 @@ import React from 'react';
 const Addimg = () => {
     return (
         <div className='addimg'>
-             <h1>addimg</h1>
+            <div className="container">
+            <h1>addimg</h1>
+            </div>
         </div>
     );
 }

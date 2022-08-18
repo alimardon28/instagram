@@ -3,7 +3,9 @@ import React from 'react';
 const Search = () => {
     return (
         <div className='search'>
-             <h1>search</h1>
+            <div className="container">
+            <h1>search</h1>
+            </div>
         </div>
     );
 }
