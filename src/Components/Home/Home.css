@@ -1,0 +1,189 @@
+.homes {
+  margin: 0;
+  padding: 20px 0px 0px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.homes__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homes__ul_li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 17px;
+}
+
+.homes__ul_li_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.homes__ul_li_top_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.homes__ul_li_top_left_img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.homes__ul_li_top_left_desc {
+  margin: 0;
+  padding-left: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.homes__ul_li_top_right {
+  margin: 0;
+  padding: 0;
+}
+
+.homes__ul_li_top_right {
+  background: transparent;
+  color: #000;
+  font-weight: 900;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.homes__ul_li_video {
+  padding-top: 15px;
+  width: 627px;
+  height: 650px;
+}
+
+.homes__ul_li_video_img {
+  width: 100%;
+  height: 100%;
+}
+
+.homes__ul_li_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.homes__ul_li_bottom_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.homes__ul_li_bottom_left_button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.homes__ul_li_bottom_left_button + .homes__ul_li_bottom_left_button {
+  margin-left: 13px;
+}
+
+.homes__ul_li_bottom_left_button > img {
+  width: 30px;
+  height: 30px;
+}
+
+.homes__ul_li_num {
+  margin: 0;
+  padding-top: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homes__ul_li_num_desc {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.homes__ul_li_num_desc_span {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  margin: 0;
+  padding-left: 13px;
+}
+/*# sourceMappingURL=Home.css.map */
