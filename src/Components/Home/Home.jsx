@@ -2,11 +2,20 @@ import React from "react";
 import "../Home/Home.scss";
 import brand from "../../assets/img/img.jpg";
 import heart from "../../assets/icons/heartblack.png";
-import message from "../../assets/icons/message.webp";
+import heartred from "../../assets/icons/heartred.png";
+import message from "../../assets/icons/message.png";
 import otpr from "../../assets/icons/786205.png";
-import saved from "../../assets/icons/saved.webp";
+import saved from "../../assets/icons/saved.png"
+import { useState } from "react";
+import { Context } from "../../Context/Context";
+import { useContext } from "react";
 
 const Home = () => {
+
+  const { like } = useContext(Context);
+  const { handleLike } = useContext(Context);
+
+
   return (
     <div className="homes">
       <div className="container homes__container">
@@ -26,8 +35,8 @@ const Home = () => {
             </div>
             <div className="homes__ul_li_bottom">
               <div className="homes__ul_li_bottom_left">
-                <button className="homes__ul_li_bottom_left_button">
-                  <img src={heart} alt="" />
+                <button onClick={handleLike} className="homes__ul_li_bottom_left_button">
+                  <img src={ handleLike ? heart : heartred} alt="" />
                 </button>
                 <button className="homes__ul_li_bottom_left_button">
                   <img src={message} alt="" />
@@ -37,14 +46,14 @@ const Home = () => {
                 </button>
               </div>
               <div className="homes__ul_li_bottom_right">
-                <button className="homes__ul_li_bottom_right_button">
-                  {saved}
+                <button  className="homes__ul_li_bottom_right_button">
+                  <img src={saved} alt="" />
                 </button>
               </div>
             </div>
             <div className="homes__ul_li_num">
               <p className="homes__ul_li_num_desc">
-                like <span className="homes__ul_li_num_desc_span">0</span>
+                like <span className="homes__ul_li_num_desc_span">{ like }</span>
               </p>
             </div>
           </li>

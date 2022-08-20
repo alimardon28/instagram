@@ -153,8 +153,22 @@
 }
 
 .homes__ul_li_bottom_left_button > img {
+  width: 24px;
+  height: 24px;
+}
+
+.homes__ul_li_bottom_right_button {
   width: 30px;
   height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.homes__ul_li_bottom_right_button > img {
+  width: 24px;
+  height: 24px;
 }
 
 .homes__ul_li_num {
