@@ -15,6 +15,8 @@ const Home = () => {
   const { like } = useContext(Context);
   const { handleLike } = useContext(Context);
 
+  const [ isactive ] = useState(false)
+
 
   return (
     <div className="homes">
@@ -38,7 +40,7 @@ const Home = () => {
                 <button onClick={handleLike} className="homes__ul_li_bottom_left_button">
                   <img src={ handleLike ? heart : heartred} alt="" />
                 </button>
-                <button className="homes__ul_li_bottom_left_button">
+                <button onClick={isactive} className="homes__ul_li_bottom_left_button">
                   <img src={message} alt="" />
                 </button>
                 <button className="homes__ul_li_bottom_left_button">
@@ -56,6 +58,9 @@ const Home = () => {
                 like <span className="homes__ul_li_num_desc_span">{ like }</span>
               </p>
             </div>
+            <form action="" className="homes__ul_li_form">
+              <input className="homes__ul_li_form_input " type="text" required placeholder="coment..."  />
+            </form>
           </li>
         </ul>
       </div>
