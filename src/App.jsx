@@ -6,6 +6,7 @@ import Search from "./Pages/Search/Search";
 import Addimg from "./Pages/Addimg/Addimg";
 import Liked from "./Pages/Liked/Liked";
 import Account from "./Pages/Account/Account";
+import Message from "./Components/Message/Message";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/addimg" element={<Addimg />} />
         <Route path="/liked" element={<Liked />} />
         <Route path="/account" element={<Account />} />
+        <Route path="/message" element={<Message/>}/>
       </Routes>
     </div>
   );
