@@ -33,6 +33,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
   }
   &__otpr_top_desc {
     font-size: 13px;
@@ -46,15 +47,20 @@
     color: #434343;
     margin-top: 10px;
   }
-  &__otpr_top_hero {
-    font-size: 13px;
+  &_otpr_top_box {
+    text-align: end;
+  }
+  &__otpr_top_boxes {
     padding: 4px;
     border-radius: 4px;
-    background-color: #ccc;
+    background-color: rgb(35, 35, 35);
     width: 50px;
+  }
+  &__otpr_top_hero {
+    font-size: 13px;
     font-style: italic;
     font-weight: 600;
-    color: #434343;
+    color: #a4a4a4;
     margin-top: 8px;
   }
   &__otpr_top_span {

@@ -1,10 +1,11 @@
 import React from 'react';
+import Searchs from '../../Components/Search/Search';
 
 const Search = () => {
     return (
         <div className='search'>
             <div className="container">
-            <h1>search</h1>
+               <Searchs/>
             </div>
         </div>
     );

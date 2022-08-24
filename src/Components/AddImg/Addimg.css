@@ -1,1 +1,28 @@
-/* No CSS *//*# sourceMappingURL=Addimg.css.map */
+.addimg {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.addimg__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.addimg__form {
+  width: 100%;
+  background: red;
+}
+
+.addimg__form_input {
+  margin: 0;
+  padding: 13px 20px;
+  background: blue;
+}
+/*# sourceMappingURL=Addimg.css.map */

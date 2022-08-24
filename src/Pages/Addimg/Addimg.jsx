@@ -1,10 +1,11 @@
 import React from 'react';
+import Addimgs from '../../Components/AddImg/Addimg';
 
 const Addimg = () => {
     return (
         <div className='addimg'>
             <div className="container">
-            <h1>addimg</h1>
+               <Addimgs/>
             </div>
         </div>
     );

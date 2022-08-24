@@ -60,6 +60,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 15px;
 }
 
 .message__otpr_top_desc {
@@ -75,15 +76,22 @@
   margin-top: 10px;
 }
 
-.message__otpr_top_hero {
-  font-size: 13px;
+.message_otpr_top_box {
+  text-align: end;
+}
+
+.message__otpr_top_boxes {
   padding: 4px;
   border-radius: 4px;
-  background-color: #ccc;
+  background-color: #232323;
   width: 50px;
+}
+
+.message__otpr_top_hero {
+  font-size: 13px;
   font-style: italic;
   font-weight: 600;
-  color: #434343;
+  color: #a4a4a4;
   margin-top: 8px;
 }
 
